@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: myappspa
-          image: .azurecr.io/myappspa:cgc
+          image: tomasslaviksec001.azurecr.io/myappspa:cgc
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
